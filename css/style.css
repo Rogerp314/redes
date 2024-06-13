@@ -37,3 +37,10 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#tela{
+    position: relative;
+    top: 80px;
+    height: 471px;
+    width: 265px;
+}
