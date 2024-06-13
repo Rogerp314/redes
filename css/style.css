@@ -44,3 +44,24 @@ main{
     height: 471px;
     width: 265px;
 }
+
+#links{
+    text-align: center;
+}
+
+#links img{
+    top: 0px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.272);
+    box-sizing: border-box; /*Serve para colocar a borda como parte do objeto.*/
+}
+
+#links img:hover{
+    transition: .25s;
+    position: relative;
+    top: -5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.553);
+    border: 2px solid white;
+}
